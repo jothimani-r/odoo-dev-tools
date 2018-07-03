@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <t t-name="DevTool">
+        <li>
+            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Developer Tools"
+               href="#">
+                <i class="fa fa-wrench"/>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="?debug">Activate the
+                        developer mode
+                    </a>
+                </li>
+                <li>
+                    <a href="?debug=assets">Activate
+                        the developer mode (with assets)
+                    </a>
+                </li>
+                <li>
+                    <a href="/web">Deactivate the
+                        developer mode
+                    </a>
+                </li>
+                <li>
+                    <a href="/web/database/selector">Database Selector</a>
+                </li>
+                <li>
+                    <a href="/web/database/manager">Database Manager</a>
+                </li>
+                <li>
+                    <a class="oe_module_control" style="cursor: pointer;">Module Control</a>
+                </li>
+            </ul>
+        </li>
+    </t>
+</templates>

@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="assets_backend" name="dev_tools assets_backend" inherit_id="web.assets_backend">
+            <xpath expr="." poisition="inside">
+                <script type="text/javascript" src="/dev_tool/static/src/js/dev_tool.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

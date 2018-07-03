@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_base_module_control" model="ir.ui.view">
+            <field name="name">Module Control</field>
+            <field name="model">base.module.control</field>
+            <field name="arch" type="xml">
+                <form string="Control Module List">
+                    <separator string="Control modules:"/>
+                    <field name="modules" placeholder="Enter module names (one per line)"/>
+                    <footer>
+                        <button name="install" string="Install" type="object" class="btn-primary"/>
+                        <button name="upgrade" string="Upgrade" type="object" class="btn-primary"/>
+                        <button name="uninstall" string="Uninstall" type="object" class="btn-primary"/>
+                        <button special="cancel" string="Cancel" class="btn-default"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>
